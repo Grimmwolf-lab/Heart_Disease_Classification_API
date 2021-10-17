@@ -7,7 +7,7 @@ import pickle as pkl
 
 app = FastAPI()
 
-model = pkl.load(open('C:/Users/kaila/Desktop/Heart_Diseases_API/model/heart_disease.pkl','rb'))
+model = pkl.load(open('heart_disease.pkl','rb'))
 
 
 
