@@ -48,6 +48,25 @@ git clone https://github.com/Grimmwolf-lab/Heart_Disease_Classification_API.git
 
 *Just copy the first link and paste in PostmanAPI*
 
+#### Now fill the following example values:
+  - age: 61
+  - sex: 0 (0-female, 1-male)
+  - chest pain type (4 values)/cp: 0 (other valid values 0,1,2)
+  - resting blood pressure/ trestbps: 145
+  - serum cholestoral in mg/dl / chol: 307
+  - fasting blood sugar > 120 mg/dl / fbs: 0 (0-false, 1-true)
+  - resting electrocardiographic results (values 0,1,2)/ restecg: 0
+  - maximum heart rate achieved/ thalach:146
+  - exercise induced angina/ exang: 1 (1-true, 0-false)
+  - oldpeak = ST depression induced by exercise relative to rest: 1
+  - the slope of the peak exercise ST segment/ slope: 1
+  - number of major vessels (0-3) colored by flourosopy/ ca: 0 (other valid values 0 to 3)
+  - thal: 1 = normal; 2 = fixed defect; 3 = reversable defect: 3
+
+  *The above defined person will be safe from heart disease problem.*
+
+
+
 
 
 
